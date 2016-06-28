@@ -1,0 +1,2 @@
+<p>The latest from our camera phones</p>
+<?php echo do_shortcode('[alpine-phototile-for-instagram id=673 user="six_am_at_the_garage" src="user_recent" imgl="instagram" style="wall" row="3" size="Th" num="3" align="center" max="100" nocredit="1"]'); ?>

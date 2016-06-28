@@ -1,0 +1,43 @@
+
+.author-title, .category-title {
+	text-align:center;
+	h4 {
+		font-weight:400;
+	}
+
+	p{
+		max-width:90%;
+		margin-left:5%;
+	}
+
+}
+
+@media #{$small-only}{
+	.author {
+		.author-title {
+			h4 {
+				margin-top:10px;
+				font-size:1.75rem;
+				margin-bottom:5px;
+			}
+			p {
+				max-width:100%;
+				margin-left:0;
+			}
+		}
+	}
+
+	.category {
+		.category-title {
+			h4 {
+				margin-top:10px;
+				font-size:1.75rem;
+				margin-bottom:5px;
+			}
+			p {
+				max-width:100%;
+				margin-left:0;
+			}
+		}
+	}
+}

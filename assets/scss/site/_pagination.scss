@@ -1,0 +1,22 @@
+.pagination {
+	li {
+		height:auto;
+	}
+
+	.current {
+		a {
+			border-bottom:1px solid;
+			border-radius:0px;
+		}
+	}
+
+	@media #{$small-only} {
+		.next {
+			margin-top:2px;
+		}
+	}
+}
+
+.pagination-row {
+	margin-top:20px;
+}

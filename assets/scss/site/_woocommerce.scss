@@ -1,0 +1,49 @@
+.woocommerce {
+	.price {
+		margin-bottom:0px;
+		position: absolute;
+    	top: 7px;
+    	right: 7px;
+    	font-size: 12px;
+    	padding: 6px 10px 6px 10px;
+    	border: 1px solid #000;
+    	background: #fff;
+    	text-transform: uppercase;
+    	letter-spacing: 0.25px;
+	}
+
+	.title {
+		text-align:center;
+	}
+
+	.featured-image {
+		height:400px;
+		background-size:contain;
+	}
+}
+
+.product-image {
+	width:100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:720px;
+}
+
+.product_title {
+	font-size:rem-calc(26);
+	font-weight:500;
+	margin-bottom:2px;
+}
+
+button.single_add_to_cart_button {
+	padding: 6px 10px 6px 10px;
+    border: 1px solid #000 !important;
+    background: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    font-weight:400 !important;
+    border-radius:0px !important;
+    color:$body-font-color !important;
+    font-size:14px !important;
+}
